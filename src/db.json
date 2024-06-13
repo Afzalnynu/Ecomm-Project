@@ -1,0 +1,22 @@
+{
+  "seller": [
+    {
+      "id": "5059",
+      "name": "Afzal shaik",
+      "password": "afzal@12345",
+      "email": "afzal.sk099@gmail.com"
+    },
+    {
+      "id": "cb3f",
+      "name": "naveen",
+      "password": "Naveen@12345",
+      "email": "naveen@gmail.com"
+    },
+    {
+      "id": "e393",
+      "name": "Sammad",
+      "password": "4544",
+      "email": "sammad@gmail.com"
+    }
+  ]
+}

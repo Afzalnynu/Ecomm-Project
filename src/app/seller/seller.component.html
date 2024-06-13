@@ -1,0 +1,26 @@
+<div class="seller-signUp">
+<div *ngIf="!showLogin" class="signUp">
+    <h1>
+        Seller sign-up
+    </h1>
+    <form [formGroup]="signUpForm" class="form-common">
+        <input type="text" name="name" placeholder="Enter Name" formControlName="name"><br>
+        <input type="password" name="password" placeholder="Enter Password" formControlName="password"><br>
+        <input type="email" name="email" placeholder="Enter Email" formControlName="email"><br>
+        <button (click)="signUp()" >SignUp</button>
+    </form>
+    <a (click)="GoLogin()">If you already have account? click here login.</a>
+</div>
+
+<div class="LogIn" *ngIf="showLogin">
+    <h1>
+        Seller sign-In
+    </h1>
+    <form [formGroup]="signUpForm" class="form-common">
+        <input type="email" name="email" placeholder="Enter Email" formControlName="email"><br>
+        <input type="password" name="password" placeholder="Enter Password" formControlName="password"><br>
+        <button (click)="LogIn()" >Sign-In</button>
+    </form>
+    <a (click)="GoSignUp()">If you don't have account? click here for sign-up.</a>
+</div>
+</div>

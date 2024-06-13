@@ -1,0 +1,29 @@
+input{
+    width: 300px;
+    margin-top: 20px;
+    height: 35px;
+    border: 1px solid blueviolet;
+}
+textarea{
+    width: 300px;
+    margin-top: 20px;
+    height: 35px;
+    border: 1px solid blueviolet;
+}
+button{
+    width: 308px;
+    margin-top: 20px;
+    height: 40px;
+    border: 1px solid blueviolet;
+    cursor: pointer;
+}
+.form-common{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
