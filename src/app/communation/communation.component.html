@@ -1,0 +1,6 @@
+<input type="text" placeholder="Enter input" [(ngModel)]="parent">
+
+<app-child-communation [child]="parent"></app-child-communation>
+
+<input type="text" placeholder="Enter Name" [(ngModel)]="parent">
+<button (click)="submit()">Submit</button>

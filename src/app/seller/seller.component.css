@@ -1,0 +1,32 @@
+.seller-signUp{
+    text-align: center;
+}
+h1{
+    color: blueviolet;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.signUp{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    width: 300px;
+    margin-top: 20px;
+    height: 35px;
+    border: 1px solid blueviolet;
+}
+button{
+    width: 308px;
+    margin-top: 20px;
+    height: 40px;
+    border: 1px solid blueviolet;
+    cursor: pointer;
+}
+a{
+   margin-top: 10px; 
+   color: blueviolet;
+   font-style: italic ;
+   font-size: 14px;
+}
